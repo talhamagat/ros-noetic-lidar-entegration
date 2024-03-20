@@ -1,0 +1,2 @@
+mav_comm/mav_comm
+/home/magos/catkin_ws/devel/.private/mav_comm/cmake.lock /home/magos/catkin_ws/devel/./cmake.lock

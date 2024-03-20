@@ -1,0 +1,8 @@
+[01m[K/home/magos/catkin_ws/src/rotors_simulator/rotors_gazebo/src/hovering_example.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/magos/catkin_ws/src/rotors_simulator/rotors_gazebo/src/hovering_example.cpp:53:13:[m[K [01;31m[Kerror: [m[K‘[01m[KmsgMultiDofJointTrajectoryPointFromTwist[m[K’ is not a member of ‘[01m[Kmav_msgs[m[K’; did you mean ‘[01m[KmsgMultiDofJointTrajectoryPointFromEigen[m[K’?
+   53 |   mav_msgs::[01;31m[KmsgMultiDofJointTrajectoryPointFromTwist[m[K(twist, trajectory_msg.points[0]);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |             [32m[KmsgMultiDofJointTrajectoryPointFromEigen[m[K
+make[2]: *** [CMakeFiles/hovering_example.dir/build.make:63: CMakeFiles/hovering_example.dir/src/hovering_example.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:390: CMakeFiles/hovering_example.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
